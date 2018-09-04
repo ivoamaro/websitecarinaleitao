@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carina</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="responsive.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:800,900" rel="stylesheet">
+</head>
+
+<body>
+<ul>
+  <li><a href="fotografia_dna.html" class="sub">FOTOGRAFIA</a></li>
+  <li><a href="design_requiem.html" class="sub">DESIGN </a></li>
+</ul>
+<div id="rotate">
+  <h1><a href="about.html" class="titulo">CARINA LEITÃO</a></h1>
+</div>
+<div id="projeto">
+  <h2><a class="titulo id="proj> PROJETOS </a></h2>
+</div>
+<ul id="reflect">
+  <li><a href="fotografia_dna.html" class="sub">FOTOGRAFIA</a></li>
+  <li><a href="design_requiem.html" class="sub">DESIGN </a></li>
+</ul>
+<div id="listagem">
+  <div class="fotografia"> <a href="fotografia_dna.html" class="sub">DNA BALLET</a> <a href="queima.html" class="sub">QUEIMA DAS FITAS'17</a> <a href="indie.htm" class="sub">INDIE MUSIC FEST</a> <a href="RODELLUS.html" class="sub">RODELLUS</a> </div>
+  <div class="design"> <a href="ciclo.html" class="sub">CICLO DE CONVERSAS</a> <a href="stereo.html" class="sub">STEREOGNOSIS</a> <a href="design_requiem.html" class="sub">REQUIEM</a> <a href="latada.html" class="sub">LATADA</a> <a href="queimadasfitas.html" class="sub">QUEIMA DAS FITAS'18</a> </div>
+</div>
+<script>
+$( document ).ready(function() {
+	 var count = 0;
+    $("#projeto").click(function () {
+        if (count % 2 === 0) {
+            $("#listagem").fadeIn();
+        } else {
+            $("#listagem").fadeOut();
+            }
+            count++;
+    });
+});
+ </script>
+</body>
+</html>

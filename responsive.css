@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 600px) {
+  .titulo {
+    font-size: 100%;
+}
+	.sub {
+		font-size: 190%;
+	}
+#rotate{
+  display: inline-table;
+right: 125%;
+}
+
+#projeto{
+  left: 85%;
+}
+
+	#listagem{
+		display: inline-grid;
+	}
+	.fotografia{
+		display: inline-grid;
+		width: 97%;
+		margin-left: auto;
+		text-align: center;
+		float: none;
+		font-size: 2vw;
+
+	}
+	.design{
+		display: inline-grid;
+		margin-top: 5%;
+		font-weight: 800;
+		width: 97%;
+		float: none;
+		font-size: 2vw;
+		marg
+
+	}
+
+
+  }

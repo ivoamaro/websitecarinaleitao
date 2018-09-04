@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IMF</title>
+<link href="articles.css" rel="stylesheet" type="text/css">
+<link href="responsive_articles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:800,900" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+ 
+ <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Projetos</a>
+  <a href="about.html">Carina Leitão</a>
+  <a href="fotografia_dna.html">Fotografia</a>
+  <a href="design_requiem.html">Design</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+ 
+  <h1> INDIE MUSIC FEST </h1>
+  <img src="IMAGENS/indie/cover.jpg" alt="cover" class="cover"/>
+  
+  <ul id="rotate"> 
+  <li class="sub"> FOTOGRAFIA </li>
+  <li id="sub"> INFO </li>
+  </ul>
+  
+  <div class="button1">
+  <a href="queima.html"><img src="IMAGENS/next-01.png" alt="button"></a>
+  <img src="IMAGENS/queima/cover.jpg" class="preview" id="pos">
+  </div>
+  
+   <div class="button2">
+   <a href="RODELLUS.html"><img id="reflect" src="IMAGENS/next-01.png" alt="button"></a>
+  <img src="IMAGENS/rodellus/cover.jpg" class="preview">
+  </div>
+  
+  <div id="infos">
+  <p>Para ver mais fotografias ou as reportagens completas visitar nos links seguintes :</p>
+  <a href="http://culturartemag.com/noticia/indie-music-fest-2017-dia-1/" target="_blank" class="sub"> DIA 1</a> <br> <a href="http://culturartemag.com/noticia/imf-dia2/" target="_blank" class="sub">DIA 2</a> <br> <a href="http://culturartemag.com/noticia/indie-music-fest-2017-dia-3/" target="_blank" class="sub">DIA 3</a>
+  <br><br>
+  <p>Cobertura do festival Indie Music Fest na edição de 2017 para a revista online Culturarte.</p></div>
+  
+</header>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+<img src="IMAGENS/indie/IMG_4143.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_4490-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_4539-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_4620-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_4782-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_4993-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5000-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5017-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5019-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5100-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5107-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5141-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5217-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5321-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_5366-Editar.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/indie/IMG_6805-Editar.jpg"  alt="1" class="article"/>  
+
+  </div>
+  <div class="column">
+<img src="IMAGENS/indie/IMG_5439-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_5549-Editar.jpg"  alt="2" class="article"/> <!-- PROBLEMA NESTA FOTO -->
+<img src="IMAGENS/indie/IMG_5656-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_5759-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_5932-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_5938-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_5962-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6018-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6024-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6050-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6085-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6099-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6199-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6556.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6673-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6745-Editar.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/indie/IMG_6804-Editar.jpg"  alt="2" class="article"/>        
+                </div>
+
+<script>
+$( document ).ready(function() {
+	 var count = 0;
+    $("#sub").click(function () {
+        if (count % 2 === 0) {
+            $("#infos").fadeIn();  
+        } else {
+            $("#infos").fadeOut();
+            }
+            count++;
+    });
+	
+	 $("#infos").click(function () {
+
+            $("#infos").fadeOut();
+
+    });
+});
+ </script>
+ 
+ <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	</script>
+ 
+</body>
+</html>

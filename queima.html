@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QUEIMA</title>
+<link href="articles.css" rel="stylesheet" type="text/css">
+<link href="responsive_articles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:800,900" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+ 
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Projetos</a>
+  <a href="about.html">Carina Leitão</a>
+  <a href="fotografia_dna.html">Fotografia</a>
+  <a href="design_requiem.html">Design</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+ 
+  <h1> QUEIMA DAS FITAS </h1>
+  <img src="IMAGENS/queima/cover.jpg" alt="cover" class="cover"/>
+  
+  <ul id="rotate"> 
+  <li class="sub"> FOTOGRAFIA </li>
+  <li id="sub"> INFO </li>
+  </ul>
+  
+  <div class="button1">
+  <a href="ciclo.html"><img src="IMAGENS/next-01.png" class="button" alt="button"></a>
+  <img src="IMAGENS/CICLO/COVER.jpg" class="preview" id="pos">
+  </div>
+  
+   <div class="button2">
+   <a href="indie.htm"><img id="reflect" src="IMAGENS/next-01.png" class="button" alt="button"></a>
+  <img src="IMAGENS/indie/cover.jpg" class="preview">
+  </div>
+  
+   <div id="infos">
+   <p>Para ver mais fotografias ou as reportagens completas visitar nos links seguintes :</p>
+  <a href="http://culturartemag.com/noticia/queima-das-fitas-2017-5-de-maio/" target="_blank" class="sub">DIA 5 DE MAIO</a> 
+  <br><a href="http://culturartemag.com/noticia/queima-das-fitas-2017-8-de-maio/" target="_blank" class="sub">DIA 8 DE MAIO</a> 
+  <br><a href="http://culturartemag.com/foto/qdf-2017-9-de-maio/" target="_blank" class="sub">DIA 9 DE MAIO</a> 
+  <br><a href="https://www.flickr.com/photos/140023432@N04/sets/72157683941578960" target="_blank" class="sub">FLICKR</a> 
+  <br><br>
+  <p>Cobertura do evento Queima das Fitas de Coimbra de 2017 para a revista online Culturarte </p></div>
+  
+</header>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+<img src="IMAGENS/queima/IMG_4693.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_4802.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_4943.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5030.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5091.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5132.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5264.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5399.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5446.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/queima/IMG_5502.jpg"  alt="1" class="article"/>
+
+  </div>
+  <div class="column">
+<img src="IMAGENS/queima/IMG_5671.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5677.jpg"  alt="2" class="article"/> 
+<img src="IMAGENS/queima/IMG_5688.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5718.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5755.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5761.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5806.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5890.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5948.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_6524.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5504.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima/IMG_5608.jpg"  alt="2" class="article"/>   
+  </div>
+  
+   <script>
+$( document ).ready(function() {
+	 var count = 0;
+    $("#sub").click(function () {
+        if (count % 2 === 0) {
+            $("#infos").fadeIn();  
+        } else {
+            $("#infos").fadeOut();
+            }
+            count++;
+    });
+	
+	 $("#infos").click(function () {
+
+            $("#infos").fadeOut();
+
+    });
+});
+ </script>
+	
+	  <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QUEIMA DAS FITAS</title>
+<link href="articles.css" rel="stylesheet" type="text/css">
+<link href="responsive_articles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:800,900" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+ 
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Projetos</a>
+  <a href="about.html">Carina Leitão</a>
+  <a href="fotografia_dna.html">Fotografia</a>
+  <a href="design_requiem.html">Design</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	<h1> QUEIMA DAS FITAS </h1>
+  <img src="IMAGENS/queima das fitas/logo-qf-18.jpg" alt="cover" class="cover"/>
+  
+  <ul id="rotate"> 
+  <li class="sub"> DESIGN </li>
+  <li id="sub"> INFO </li>
+  </ul>
+  
+  <div class="button1">
+  <a href="fotografia_dna.html"><img src="IMAGENS/next-01.png" class="button" alt="button"></a>
+  <img src="IMAGENS/cover.jpg" class="preview" id="pos">
+  </div>
+  
+   <div class="button2" ><a href="latada.html"><img id="reflect" src="IMAGENS/next-01.png" class="button" alt="button"></a>
+  <img src="IMAGENS/latada/logo.png" class="preview">
+  </div>
+  
+  <div id="infos">
+  <a href="http://queimadasfitascoimbra.pt/views/poster/" target="_blank" class="sub">SITE OFICIAL</a>
+  <br><a href="https://www.facebook.com/queimadasfitascoimbra/" target="_blank" class="sub">FACEBOOK</a>
+  <br><br>
+  <p>Este evento é assim organizado por uma Comissão alheia à Direção Geral da Associação Académica de
+Coimbra, pela qual fui convidada a integrar a equipa de Imagem que tratava do design correspondente à
+Queima das Fitas de 2018.Esta Equipa era assim constituída por Carina Leitão, Carla Mendes, Rúben Silva e
+Simão Nogueira.</p></div>
+  
+</header>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+<img src="IMAGENS/queima das fitas/final_logo_ae.gif"  alt="1" class="article"/>
+<img src="IMAGENS/queima das fitas/poster_oficial_1-01.png"  alt="1" class="article"/>
+<img src="IMAGENS/queima das fitas/seu jorge-01.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/queima das fitas/o_que_fazias_p_1_geral.jpg"  alt="2" class="article"/>
+
+
+  </div>
+  
+  <div class="column">
+  <img src="IMAGENS/queima das fitas/capa_lema.png"  alt="2" class="article"/>
+  <img src="IMAGENS/queima das fitas/Cartaz_Bandas_50x70.jpg"  alt="2" class="article"/>
+  <img src="IMAGENS/queima das fitas/vini_vici.gif"  alt="2" class="article"/>
+  <img src="IMAGENS/queima das fitas/31531221_1000934056722603_3492412649122037760_o.jpg"  alt="1" class="article"/>
+  </div>
+
+<script>
+$( document ).ready(function() {
+	 var count = 0;
+    $("#sub").click(function () {
+        if (count % 2 === 0) {
+            $("#infos").fadeIn();  
+        } else {
+            $("#infos").fadeOut();
+            }
+            count++;
+    });
+	
+	 $("#infos").click(function () {
+
+            $("#infos").fadeOut();
+
+    });
+
+});
+ </script>
+ 
+   <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	</script>
+ 
+</body>
+</html><!doctype html>
+

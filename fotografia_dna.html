@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DNA</title>
+<link href="articles.css" rel="stylesheet" type="text/css">
+<link href="responsive_articles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:800,900" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+ 
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Projetos</a>
+  <a href="about.html">Carina Leitão</a>
+  <a href="fotografia_dna.html">Fotografia</a>
+  <a href="design_requiem.html">Design</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+ 
+  <h1> DNA BALLET </h1>
+  <img src="IMAGENS/cover.jpg" alt="cover" class="cover"/>
+  <ul id="rotate"> 
+  <li class="sub"> FOTOGRAFIA </li>
+  <li id="sub"> INFO </li>
+  </ul>
+  
+  <div class="button1">
+  <a href="RODELLUS.html"><img src="IMAGENS/next-01.png" class="button" alt="button"></a>
+  <img src="IMAGENS/rodellus/cover.jpg" class="preview" id="pos">
+  </div>
+  
+   <div class="button2">
+   <a href="queimadasfitas.html"><img src="IMAGENS/next-01.png" id="reflect" class="button" alt="button"></a>
+  <img src="IMAGENS/queima das fitas/logo-qf-18.jpg" class="preview">
+  </div>
+  
+  <div id="infos">
+  <a href="https://www.flickr.com/photos/140023432@N04/sets/72157678106420663" target="_blank" class="sub">FLICKR</a> 
+  <br><br>
+  <p>Espetáculo da escola de ballet Dance N’Arts School,localizada em Coimbra em 2017. </p></div>
+  
+</header>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="IMAGENS/IMG_1688.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/IMG_1146-2.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/IMG_1217.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/IMG_1234.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/IMG_1406-2.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/IMG_1422-2.jpg"  alt="1" class="article"/>
+<img src="IMAGENS/IMG_1538-2.jpg"  alt="1" class="article"/>
+
+  </div>
+  <div class="column">
+<img src="IMAGENS/IMG_1639.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/IMG_1410-2.jpg"  alt="2" class="article"/> <!-- PROBLEMA NESTA FOTO -->
+<img src="IMAGENS/IMG_1219.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/IMG_1291.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/IMG_1204.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/IMG_1507.jpg"  alt="2" class="article"/>
+<img src="IMAGENS/IMG_2677.JPG"  alt="2" class="article"/>
+<img src="IMAGENS/IMG_2219.JPG"  alt="2" class="article"/>
+  </div>
+  
+  <script>
+$( document ).ready(function() {
+	 var count = 0;
+    $("#sub").click(function () {
+        if (count % 2 === 0) {
+            $("#infos").fadeIn();  
+        } else {
+            $("#infos").fadeOut();
+            }
+            count++;
+    });
+	
+	 $("#infos").click(function () {
+
+            $("#infos").fadeOut();
+
+    });
+});
+ </script>
+ 
+  <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	</script>
+
+</body>
+</html>
