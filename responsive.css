@@ -8,13 +8,14 @@
 	.sub {
 		font-size: 190%;
 	}
+
 #rotate{
   display: inline-table;
-right: 125%;
+    right: 60px;
 }
 
 #projeto{
-  left: 85%;
+  left: 40px;
 }
 
 	#listagem{

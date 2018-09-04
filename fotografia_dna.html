@@ -73,18 +73,25 @@
   </div>
 
   <script>
-$( document ).ready(function() {
-	 var count = 0;
-    $("#sub").click(function () {
-        if (count % 2 === 0) {
-            $("#infos").fadeIn();
-        } else {
-            $("#infos").fadeOut();
-            }
-            count++;
-    });
-});
- </script>
+  $( document ).ready(function() {
+  	 var count = 0;
+      $("#sub").click(function () {
+          if (count % 2 === 0) {
+              $("#infos").fadeIn();
+          } else {
+              $("#infos").fadeOut();
+              }
+              count++;
+      });
+
+  	 $("#infos").click(function () {
+
+              $("#infos").fadeOut();
+
+      });
+
+  });
+   </script>
 
   <script>
 function myFunction() {

@@ -18,6 +18,8 @@ body {
 .topnav {
     background-color: #FFFFFF;
     overflow: hidden;
+    font-weight: 600;
+    font-family: HK Grotesk SemiBold;
 }
 
 /* Style the links inside the navigation bar */
@@ -28,7 +30,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 /* Change the color of links on hover */
@@ -77,11 +79,11 @@ ul {
 }
 #rotate {
 
-	position: fixed;
-  transform:  translateX(50%) translateY(-50%) rotate(-90deg);
-	top: 50%;
-	right: 300px;
-	z-index: 5;
+  position: fixed;
+  transform: translateX(50%) translateY(-50%) rotate(90deg);
+  top: 50%;
+  right: 300px;
+  z-index: 5;
 
 
 }
@@ -195,7 +197,7 @@ a {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
 	.descricao{
 		text-align: center;
