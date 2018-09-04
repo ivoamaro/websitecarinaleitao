@@ -130,12 +130,12 @@ h1 {
 #infos {
 	display: none;
 	margin-left: 3%;
-	margin-top: -20%;
+	margin-top: -12%;
 	margin-bottom: 10%;
 	margin-right: 80%;
 	text-align: left;
 	font-size: 0.5vw;
-	z-index: 5;
+	z-index: 2;
 	position: absolute;
 }
 #sub {
