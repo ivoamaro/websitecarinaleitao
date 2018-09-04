@@ -31,6 +31,14 @@
 		margin-top: 50px;
 	}
 
+	#rotate2 {
+    position: absolute;
+    transform: translateX(0%) rotate(0deg);
+    top: 270px;
+    left: 100px;
+    z-index: 5;
+}
+
 	ul li {
     margin-left: 0;
 }
