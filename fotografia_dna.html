@@ -14,7 +14,7 @@
 
 <body>
 <header>
- 
+
   <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Projetos</a>
   <a href="about.html">Carina Leitão</a>
@@ -24,33 +24,33 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
- 
+
   <h1> DNA BALLET </h1>
   <img src="IMAGENS/cover.jpg" alt="cover" class="cover"/>
-  <ul id="rotate"> 
+  <ul id="rotate">
   <li class="sub"> FOTOGRAFIA </li>
   <li id="sub"> INFO </li>
   </ul>
-  
+
   <div class="button1">
   <a href="RODELLUS.html"><img src="IMAGENS/next-01.png" class="button" alt="button"></a>
   <img src="IMAGENS/rodellus/cover.jpg" class="preview" id="pos">
   </div>
-  
+
    <div class="button2">
    <a href="queimadasfitas.html"><img src="IMAGENS/next-01.png" id="reflect" class="button" alt="button"></a>
   <img src="IMAGENS/queima das fitas/logo-qf-18.jpg" class="preview">
   </div>
-  
+
   <div id="infos">
-  <a href="https://www.flickr.com/photos/140023432@N04/sets/72157678106420663" target="_blank" class="sub">FLICKR</a> 
+  <a href="https://www.flickr.com/photos/140023432@N04/sets/72157678106420663" target="_blank" class="sub">FLICKR</a>
   <br><br>
   <p>Espetáculo da escola de ballet Dance N’Arts School,localizada em Coimbra em 2017. </p></div>
-  
+
 </header>
 
 <!-- Photo Grid -->
-<div class="row"> 
+<div class="row">
   <div class="column">
     <img src="IMAGENS/IMG_1688.jpg"  alt="1" class="article"/>
 <img src="IMAGENS/IMG_1146-2.jpg"  alt="1" class="article"/>
@@ -71,27 +71,21 @@
 <img src="IMAGENS/IMG_2677.JPG"  alt="2" class="article"/>
 <img src="IMAGENS/IMG_2219.JPG"  alt="2" class="article"/>
   </div>
-  
+
   <script>
 $( document ).ready(function() {
 	 var count = 0;
     $("#sub").click(function () {
         if (count % 2 === 0) {
-            $("#infos").fadeIn();  
+            $("#infos").fadeIn();
         } else {
             $("#infos").fadeOut();
             }
             count++;
     });
-	
-	 $("#infos").click(function () {
-
-            $("#infos").fadeOut();
-
-    });
 });
  </script>
- 
+
   <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");

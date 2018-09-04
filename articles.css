@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: HK Grotesk SemiBold;
+    src: url(HKGrotesk-Regular.ttf);
+}
+
 * {
 	margin-top: 0%;
 	margin-right: 0%;
@@ -13,13 +19,14 @@ body {
 	background-color: #FFFFFF;
 }
 .topnav {
-	font-family: "HK Grotesk SemiBold";
+	font-family: HK Grotesk SemiBold;
 	background-color: #FFFFFF;
 	mix-blend-mode: exclusion;
 	overflow: hidden;
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%;
+  font-weight: 600;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -50,7 +57,8 @@ a {
 }
 p {
 	display: inline-block;
-	font-family: 'HK Grotesk Medium';
+	font-family:HK Grotesk SemiBold;
+  font-weight: 600;
 	font-size: 180%;
 	letter-spacing: 0px;
 }
@@ -94,14 +102,21 @@ ul {
 	transform: scale(-1);
 }
 #rotate {
-	padding-left: 200px;
-	position: absolute;
-	text-align: center;
-	top: -70%;
-	bottom: 70%;
-	transform-origin: left;
-	transform: rotate(90deg);
-	left: 2vw;
+
+  position: absolute;
+	transform: translateX(50%)  rotate(90deg);
+	top: 310px;
+	left: -230px;
+	z-index: 5;
+}
+
+
+#rotate2{
+  position: absolute;
+    transform: translateX(50%) rotate(90deg);
+    top: 270px;
+    left: -130px;
+    z-index: 5;
 }
 
 h1 {
@@ -140,7 +155,7 @@ h1 {
 	-webkit-text-stroke: 1px black;
 }
 .cover {
-	max-width: 45%;
+
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -214,6 +229,6 @@ h1 {
 .topnav.responsive a {
 	float: none;
 	display: block;
-	text-align: center;
+	text-align: left;
 }
 }

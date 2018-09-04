@@ -14,7 +14,7 @@
 
 <body>
 <header>
- 
+
  <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Projetos</a>
   <a href="about.html">Carina Leitão</a>
@@ -24,12 +24,12 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
- 
+
   <h1> CICLO DE CONVERSAS </h1>
   <img src="IMAGENS/CICLO/COVER.jpg" alt="cover" class="cover"/>
-  
-  
-  <ul id="rotate"> 
+
+
+  <ul id="rotate2">
   <li class="sub"> DESIGN </li>
   <li id="sub"> INFO </li>
   </ul>
@@ -39,21 +39,21 @@
    <a href="stereo.html"><img src="IMAGENS/next-01.png" class="button" alt="button"></a>
   <img src="IMAGENS/stereognosis/cover.jpg" class="preview" id="pos">
   </div>
-  
+
    <div class="button2">
    <a href="queima.html"><img id="reflect" src="IMAGENS/next-01.png" class="button" alt="button"></a>
   <img src="IMAGENS/queima/cover.jpg" class="preview">
   </div>
-  
+
   <div id="infos">
-  <a href="https://www.behance.net/gallery/47856287/Ciclo-De-Conversas-Design-e-Multimdia" target="_blank" class="sub">BEHANCE</a> <br> <a href="https://vimeo.com/201744290" target="_blank" class="sub">VIMEO</a> 
+  <a href="https://www.behance.net/gallery/47856287/Ciclo-De-Conversas-Design-e-Multimdia" target="_blank" class="sub">BEHANCE</a> <br> <a href="https://vimeo.com/201744290" target="_blank" class="sub">VIMEO</a>
   <br><br>
   <p>Projeto realizado por Carina Leitão e Catarina Lucas Loureiro em 2016, no âmbito universitário. O objetivo é que seja criado pelos alunos, toda a imagem envolvente  do ciclo de conferências com lugar em Coimbra todos os anos, onde são convidadas pessoas cuja a sua carreira se baseie em volta do design e multimédia.Os nomes utilizados são meramente especulativos.</p></div>
 
 </header>
 
 <!-- Photo Grid -->
-<div class="row"> 
+<div class="row">
   <div class="column">
 <iframe src="https://player.vimeo.com/video/206502922" width="640" height="439" frameborder="0" alt="1" class="article" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <img src="IMAGENS/CICLO/capa_dia26.jpg"  alt="1" class="article"/>
@@ -64,10 +64,10 @@
   </div>
   <div class="column">
 <img src="IMAGENS/CICLO/cartaz.png"  alt="2" class="article"/>
-<img src="IMAGENS/CICLO/capa_dia29.png"  alt="2" class="article"/> 
+<img src="IMAGENS/CICLO/capa_dia29.png"  alt="2" class="article"/>
 <img src="IMAGENS/CICLO/capa_dia5.png"  alt="2" class="article"/>
 <video controls src="IMAGENS/CICLO/facebook_dia5.mp4" alt="2" class="article"></video>
-  
+
   </div>
 
 <script>
@@ -75,21 +75,15 @@ $( document ).ready(function() {
 	 var count = 0;
     $("#sub").click(function () {
         if (count % 2 === 0) {
-            $("#infos").fadeIn();  
+            $("#infos").fadeIn();
         } else {
             $("#infos").fadeOut();
             }
             count++;
     });
-	
-	 $("#infos").click(function () {
-
-            $("#infos").fadeOut();
-
-    });
 });
  </script>
- 
+
   <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -100,6 +94,6 @@ function myFunction() {
     }
 }
 	</script>
- 
+
 </body>
 </html>

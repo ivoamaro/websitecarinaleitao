@@ -11,17 +11,14 @@
 }
 	h1{
 		margin-top:15%;
-		font-size: 220%;
 	}
-	
-	#sub .sub{
-		font-size:100%;
+	.sub{
+		font-size:150%;
 		display: inline;
 
 	}
-	
 	#rotate{
-		width: 90%;
+	 width: 90%;
     margin: auto;
     position: inherit;
     text-align: center;
@@ -52,5 +49,17 @@ padding: 5%;
 bottom: 0;
 position: fixed;
 }
+
+h1{
+	font-size: 220%;
+}
+
+.pos2 {
+	left: 0;
+	top: 100px;
+	position: absolute;
+}
+
+
 
 }
