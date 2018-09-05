@@ -78,3 +78,14 @@ h1{
 
 
 }
+
+
+@media screen and (min-width: 1380px) {
+
+
+	#infos {
+		margin-top: -12%;
+	}
+
+
+}
