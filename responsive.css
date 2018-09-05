@@ -42,14 +42,10 @@
 	}
 
 
-  .titlephoto:hover:after {
-      content: url(IMAGENS/ok.jpg);
-      display: block;
-      position: absolute;
-      left:-10%;
-      top: -90%;
+  /*.titlephoto:hover:after {
+
   	  transform: scale(0.1);
-  }
+  }*/
 
 
   }
